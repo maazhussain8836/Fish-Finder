@@ -91,7 +91,7 @@ const Screen1 = () => {
 
   // axios ....
   const handleImageUpload = base64 => {
-    const apiKey = 'AIzaSyDEWD5MLAof7UnDMH5mVf9Fpwr_dLtH5X0';
+    const apiKey = 'key add later';
     const endpoint = `https://vision.googleapis.com/v1/images:annotate?key=${apiKey}`;
 
     const requestBody = {
@@ -150,7 +150,7 @@ const Screen1 = () => {
           url: `${imageURL}`,
           // url:'https://qph.cf2.quoracdn.net/main-qimg-b2edd5fe9eea4c819a4e8fdfa99da285-lq',
           api_key:
-            'd131c5262954312c05f71db8d9fb906e65ed030d1741e3457c8c295d33366cce',
+            'key add later',
         },
       })
       .then(res => {
